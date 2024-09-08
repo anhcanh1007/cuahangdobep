@@ -222,8 +222,8 @@
     gap: 10px;
     background-color: #140202;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     letter-spacing: 1px;
 }
 .footer div div h3 {
@@ -257,9 +257,8 @@
     border: 1px solid gray;
     box-shadow: 0  0 1px 1px gray ;
     padding: 10px 10px 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
 .content_share_experiance .content_left{
@@ -267,5 +266,24 @@
 }
 .content_share_experiance .content_left img{
     max-width: 100%;
+    border-radius: 3px;
+}
+.content_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content_child_right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.content_child_right img {
+    border-radius: 3px;
+    width: 100px;
+    height: 80px;
+}
+.content_child_right p {
+    font-size: 18px;
 }
 /* stop code share_experiance */
