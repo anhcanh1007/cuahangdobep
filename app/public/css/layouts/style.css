@@ -9,9 +9,13 @@
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
 }
-.content {
-    flex: 1;
-}
+
+/* .content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+} */
 
 /* start css header */
 .header {
@@ -137,6 +141,9 @@
     color: blue;
 }
 /* stop css navbar */
+.content_main {
+   background-color: cadetblue;
+}
 /* start code banner */
 .banner_list_category {
     display: grid;
@@ -436,5 +443,110 @@
 /* start code page show_product_by-category */
 
 /* start code page show_product_by-category */
+
+/* start code login css */
+
+/* .content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+} */
+/* .login_1 {
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+.title_1 {
+    background-color: #9ab7c8;
+    text-align: center;
+    padding: 20px 20px ;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form_login_1 {
+    min-width: 100%;
+}
+.form_login_1 form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form_action_1 input{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+.form_action_1 button {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: #34393f;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+}
+.form_action_1 button:hover {
+    background-color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+.login_by_fb_1 button{
+    width: 100%;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 0 10px 0;
+}
+.login_by_fb_1 button:hover {
+    background-color: #2f06bb;
+    transition: 1s;
+    cursor: pointer;
+}
+.login_by_gg_1 button {
+    width: 100%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 0 10px 0;
+}
+.login_by_gg_1 button:hover {
+    background-color: #cc0c39;
+    transition: 1s;
+    cursor: pointer;
+}
+.action_out_1 a{
+    text-decoration: none;
+    color: black;
+}
+.action_out_1 a:hover{
+    color: #cc0c39;
+    transition: 1s;
+    font-weight: 800;
+}
+.register_out a{
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+.register_out_1 a:hover {
+    transition: 1s;
+    font-family: 800;
+    color: blue;
+} */
+
+
+/* stop code login css */
 
 
