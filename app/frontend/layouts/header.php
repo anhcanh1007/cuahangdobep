@@ -11,8 +11,10 @@
     crossorigin="anonymous"></script>
   <base href="/cuahangdobep">
   <link rel="stylesheet" href="../../public/css/layouts/style.css" />
-  <!-- <link rel="stylesheet" href="../../public/css/pages/login.css"> -->
-  <!-- <link rel="stylesheet" href="../../public/css/pages/show_product_by_category.css"> -->
+  <link rel="stylesheet" href="../../public/css/layouts/home.css" />
+  <link rel="stylesheet" href="../../public/css/pages/login.css">
+  <link rel="stylesheet" href="../../public/css/pages/show_product_by_category.css">
+  <link rel="stylesheet" href="../../public/css/pages/detail_product.css">
 </head>
 
 <body>
@@ -20,7 +22,9 @@
     <!-- start code header -->
     <div class="header">
       <div class="logo_website">
-        <img src="../../images/logo/logo3.jpg" alt="" />
+        <a href="">
+          <img src="../../images/logo/logo3.jpg" alt="" />
+        </a>
       </div>
       <div class="search">
         <div class="input_search">

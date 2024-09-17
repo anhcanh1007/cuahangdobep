@@ -1,0 +1,207 @@
+.detail_product1 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.show_image_product1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.avt_product1 {
+    min-width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.avt_product1 img {
+    max-width: 100%;
+}
+.list_img_producut1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+.img_stt_product1 {
+    max-width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.img_stt_product1 img {
+    max-width: 100%;
+}
+.action_product1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title_product1 p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.short_description1 {
+    position: relative;
+}
+.price_product1 strong {
+    font-size: 30px;
+    color: red;
+    font-weight: 700;
+}
+.price_product1 span {
+    position: absolute;
+    top: 8;
+    right: 40;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.color_product1 .color_title_product1 p{
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.color_product1 button {
+    padding: 5px;
+    border: none;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.weight_product1 p {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.weight_product1 button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+} 
+.quantity_product1 p {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.quantity_product1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.quantity_product1 button {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.stock_product1 {
+    display: flex;
+    gap: 10px;
+}
+.stock_product1 p {
+    font-size: 26px;
+}
+.stock_product1 i {
+    font-size: 24px;
+    color: green;
+}
+.buy_now_product1 {
+    width: 100%;
+}
+.buy_now_product1 button {
+    min-width: 100%;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 26px;
+}
+.short_description1 p {
+    font-size: 20px;
+}
+
+
+.thankiu_for_all {
+    border-top: 1px solid gray;
+}
+.thankiu_for_all_container {
+    background-color: lightblue;
+    padding: 10px;
+}
+.thankiu_for_all_container p{
+    margin-bottom: 5px;
+}
+.thankiu_for_all_container i{
+    font-weight: 600;
+}
+.description_product1 .characteristic_product1 p{
+    font-size: 32px;
+    font-weight: 500;
+    color: #393c4b;
+    margin-bottom: 5px;
+}
+.description_product1 .show_characteristic_product1 p{
+    font-size: 22px;
+}
+.notifi_product1 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.product_watch1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.product_watch1 .info_product_relationship1 {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.product_watch1 .info_product_relationship1 .img_product_rela1 {
+    min-width: 100%;
+}
+.product_watch1 .info_product_relationship1 .img_product_rela1 img{
+    max-width: 100%;
+}
+.product_watch1 .info_product_relationship1 .title_product_rela1 {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.product_watch1 .info_product_relationship1 .price_product_rela1 {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+} 
+.product_watch1 .info_product_relationship1 .price_product_rela1 p{
+    font-weight: 800;
+    color: #333;
+} 
+.product_watch1 .info_product_relationship1 .discount_product_rela1 {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+} 
+.product_watch1 .info_product_relationship1 .discount_product_rela1 strong {
+    font-weight: 600;
+    text-decoration: line-through;
+}   
+.product_watch1 .info_product_relationship1 .discount_product_rela1 span {
+    color: grey;
+    margin-left: 3px;
+}   
+

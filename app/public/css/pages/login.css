@@ -1,14 +1,15 @@
 
-/* .content {
+.content {
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-} */
+}
 .login_1 {
     border-radius: 5px;
     width: 50%;
     border: 1px solid lightgray;
+    margin-top: 30px;
 }
 .title_1 {
     background-color: #9ab7c8;
@@ -85,17 +86,17 @@
 }
 .action_out_1 a:hover{
     color: #cc0c39;
-    transition: 1s;
     font-weight: 800;
+    transition: 1.5s ease-in-out;
 }
-.register_out a{
+.register_out_1 a{
     text-decoration: none;
     font-style: italic;
     color: black;
 }
 .register_out_1 a:hover {
-    transition: 1s;
-    font-family: 800;
-    color: blue;
+    transition: 1.5s ease-in-out;
+    font-weight: 800;
+    color: #cc0c39;
 }
 

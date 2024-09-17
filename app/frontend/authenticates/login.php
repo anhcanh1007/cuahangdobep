@@ -1,4 +1,5 @@
 <!-- stop code header -->
+<div class="content">
   <div class="login_1">
     <div class="title_1">
       <h3>ĐĂNG NHẬP TÀI KHOẢN</h3>
@@ -27,5 +28,6 @@
       </form>
     </div>
   </div>
+</div>
 </div>
 <!-- stop code share_experiance -->

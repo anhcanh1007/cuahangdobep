@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <div class="image_product_by_category">
+      <div class="infomation_product_by_category">
         <div class="image_product_by_category">
           <img src="../images/products/dcnb/noi1.png" alt="" />
         </div>
@@ -33,7 +33,7 @@
           </div>
         </div>
       </div>
-      <div class="image_product_by_category">
+      <div class="infomation_product_by_category">
         <div class="image_product_by_category">
           <img src="../images/products/dcnb/noi1.png" alt="" />
         </div>
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <div class="image_product_by_category">
+      <div class="infomation_product_by_category">
         <div class="image_product_by_category">
           <img src="../images/products/dcnb/noi1.png" alt="" />
         </div>
@@ -61,7 +61,7 @@
           </div>
         </div>
       </div>
-      <div class="image_product_by_category">
+      <div class="infomation_product_by_category">
         <div class="image_product_by_category">
           <img src="../images/products/dcnb/noi1.png" alt="" />
         </div>
@@ -75,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="image_product_by_category">
+      <div class="infomation_product_by_category">
         <div class="image_product_by_category">
           <img src="../images/products/dcnb/noi1.png" alt="" />
         </div>
@@ -89,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="image_product_by_category">
+      <div class="infomation_product_by_category">
         <div class="image_product_by_category">
           <img src="../images/products/dcnb/noi1.png" alt="" />
         </div>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="image_product_by_category">
+      <div class="infomation_product_by_category">
         <div class="image_product_by_category">
           <img src="../images/products/dcnb/noi1.png" alt="" />
         </div>

@@ -17,6 +17,9 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
         case 'show_list_product_by_category':
            include './frontend/pages/products/show_product_by_category.php';
             break;
+        case 'detail_product':
+            include './frontend/pages/products/detail_product.php';
+                break;
         default:
             include './frontend/layouts/home.php';
             break;
