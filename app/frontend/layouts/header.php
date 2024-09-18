@@ -47,6 +47,7 @@
           <div>
             <span><a href="http://127.0.0.1:8080/?act=login">Đăng nhập</a></span>
             <span><a href="http://127.0.0.1:8080/?act=register">Đăng kí</a></span>
+            <a href="http://127.0.0.1:8080/backend/controller.php?act=dashboard">Admin</a>
           </div>
         </div>
       </div>
