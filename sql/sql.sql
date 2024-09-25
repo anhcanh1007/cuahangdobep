@@ -1,0 +1,71 @@
+-- create table categories (
+-- 	id INT AUTO_INCREMENT PRIMARY KEY,
+--     name VARCHAR(50) NOT NULL,
+--     image VARCHAR(100) NOT NULL,
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- 	updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+--     );
+    
+-- create table products (
+-- id INT AUTO_INCREMENT PRIMARY KEY,
+-- product_name VARCHAR(50) NOT NULL,
+-- image VARCHAR(100) NOT NULL,
+-- price DECIMAL(10,2) NOT NULL,
+-- quantity INT(10) NOT NULL,
+-- descript TEXT NOT NULL,
+-- discount INT(10) UNSIGNED Null,
+-- category_id INT(10),
+-- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE CASCADE
+-- );
+
+-- create table product_images (
+-- id INT AUTO_INCREMENT PRIMARY KEY,
+-- image VARCHAR(200) NOT NULL,
+-- product_id INT(10),
+-- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+-- );
+
+-- create table users (
+-- id INT AUTO_INCREMENT PRIMARY KEY,
+-- first_name VARCHAR(50) NOT NULL,
+-- last_name VARCHAR(50) NOT NULL,
+-- avatar VARCHAR(200) NULL,
+-- phone DECIMAL(10,0) NULL,
+-- email VARCHAR(200) NOT NULL,
+-- birthday VARCHAR(10) NULL,
+-- address VARCHAR(100) NULL,
+-- role INT DEFAULT 0,
+-- is_active INT DEFAULT 0,
+-- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
+
+-- create table orders (
+-- id int auto_increment primary key,
+-- user_id int(10),
+-- total_amount decimal(10, 2),
+-- status int default 0,
+-- payment_method int default 0,
+-- shipping_address varchar(200) not null,
+-- product_id int(10),
+-- created_at timestamp default current_timestamp,
+-- updated_at timestamp default current_timestamp,
+-- foreign key (user_id) references users(id),
+-- foreign key (product_id) references products(id)
+-- );
+
+-- create table order_details (
+-- id int(10) auto_increment primary key,
+-- order_id int(10),
+-- quantity int(10) unsigned,
+-- price decimal(10,2), 
+-- created_at timestamp default current_timestamp,
+-- updated_at timestamp default current_timestamp,
+-- foreign key (order_id) references orders(id) on delete cascade
+-- );
+
+

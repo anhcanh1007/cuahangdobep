@@ -1,27 +1,5 @@
 <?php  
 
-// Kiểm tra nếu URL hiện tại là cho backend  
-// $currentUrl = $_SERVER['REQUEST_URI'];  
-
-// if (strpos($currentUrl, '/backend') === 0) {  
-//     // Thực hiện các route của backend  
-//     if (isset($_GET['act']) && ($_GET['act'] != "")) {  
-//         $act = $_GET['act'];  
-//         switch ($act) {  
-//             case 'header':  
-//                 include './backend/layouts/index.php';  
-//                 break;  
-//             case 'ad':  
-//                 echo "anh canh dang test";  
-//                 break;  
-//             default:   
-//                 include '../backend/layouts/index.php';  
-//                 break;  
-//         }  
-//     } else {  
-//         include '../backend/layouts/index.php';  // hoặc trang mặc định cho backend  
-//     }  
-// } else {  
 include "./frontend/layouts/header.php";  
 
     // Xử lý cho frontend  
