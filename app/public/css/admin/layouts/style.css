@@ -6,9 +6,9 @@
 html, body {
     height: 100%;
 }
-/* .container {
+.container {
     width: 100%;
-} */
+}
 .content {
     background: white;
     display: grid;
@@ -22,6 +22,10 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    
+}
+.content > .navbar_left {
+    padding-right: 10px;
 }
 .info_admin {
     width: 100%;
@@ -43,6 +47,9 @@ html, body {
     border: 1px solid white;
     border-radius: 100%;
 }
+.list_option ul ul {
+    display: none;
+}
 
 .list_option ul li {
     padding-left: 20px;
@@ -51,12 +58,25 @@ html, body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.list_option ul li:hover {
+.list_option ul li:hover{
+    cursor: pointer;
     background-color: bisque;
     transition: 1.5s ease-in-out;
     a {
-        color: #333;
+        color: #90cc41;
     }
+}
+.list_option ul li:hover > ul {
+    display: block;
+}
+.list_option ul li ul li {
+    color: rgb(24, 7, 7);
+    list-style-type: none;
+}
+
+.list_option ul li ul li:hover {
+    color: #32a2ba;
+    background-color: #90cc41;
 }
 .list_option ul li a{
     font-size: 18px;
@@ -75,6 +95,7 @@ html, body {
     padding-right: 40px;
     font-size: 20px;
     border-bottom: 1px solid gray;
+    z-index: 1000;
 }
 .title {
     display: flex;
@@ -101,15 +122,16 @@ html, body {
     align-items: center;
 }
 .search input{
-    font-size: 24px;
-    padding-left: 4px;
+    font-size: 20px;
+    padding-left: 10px;
     padding-top: 4px;
     padding-bottom: 4px;
-    border: none;
-    border-radius: 4px
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
 }
-.search input:focus {
-    border: 1px solid green;
+.search input[type=text]:focus {
+    border: 2px solid red;
     transition: 1s ease-in-out;
 }
 .search button {
@@ -118,11 +140,11 @@ html, body {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     padding: 4px;
-    background-color: lightskyblue;
+    background-color: burlywood;
 }
 .search button:hover {
     cursor: pointer;
-    background-color: burlywood;
+    background-color: lightblue;
     transition: 1s ease-in-out;
 }
 .header_right {
@@ -143,16 +165,20 @@ html, body {
     font-size: 14px;
 }
 .link_page {
-    background: #f9f7f8;
-    height: 60px;
-    display: flex;
-    align-items: center;
+    background: #128fa5;
     border-radius: 4px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
 }
-.link_page h3 {
-    color: #171D18;
-    margin-left: 20px;
+
+.link_page p {
+    margin-top: 10px;
+    color: white;
 }
+
 .main_cate {
     margin-top: 20px;
     display: grid;
