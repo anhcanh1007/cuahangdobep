@@ -21,6 +21,9 @@ include "./frontend/layouts/header.php";
             case 'detail_product':  
                 include './frontend/pages/products/detail_product.php';  
                 break;  
+            // case 'admin':  
+            //     header("Location: controller.php?act1=dashboard");
+            //     exit();  
             default:  
                 include './frontend/layouts/home.php';  
                 break;  

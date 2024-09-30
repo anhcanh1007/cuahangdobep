@@ -18,7 +18,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
             include './pages/products/list_product.html';
             break;
         case "add_cate":
-            include './pages/products/add_product.html';
+            include './pages/products/add_product.php';
             break;
         case "edit_cate":
             include './pages/products/edit_product.html';

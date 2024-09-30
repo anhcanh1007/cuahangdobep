@@ -130,7 +130,7 @@ html, body {
 }
 .header_left .title p a:hover {
     color: #e45154;
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 .header_left > div > form {
     display: flex;

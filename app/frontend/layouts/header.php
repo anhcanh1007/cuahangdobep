@@ -45,9 +45,9 @@
             <h4>Tài khoản</h4>
           </div>
           <div>
-            <span><a href="http://127.0.0.1:8080/?act=login">Đăng nhập</a></span>
-            <span><a href="http://127.0.0.1:8080/?act=register">Đăng kí</a></span>
-            <a href="http://127.0.0.1:8080/backend/controller.php?act=dashboard">Admin</a>
+            <span><a href="index.php?act=login">Đăng nhập</a></span>
+            <span><a href="index.php?act=register">Đăng kí</a></span>
+            <a href="../../backend/controller.php">Admin</a>
           </div>
         </div>
       </div>

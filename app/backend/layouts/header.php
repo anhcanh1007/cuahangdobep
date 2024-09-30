@@ -27,7 +27,7 @@
           <ul>
             <li><a href="">Danh mục</a>
               <ul>
-                <li>Thêm danh mục</li>
+                <li><a href="controller.php?act=add_cate">Thêm danh mục</a></li>
                 <li>Danh sách danh mục</li>
               </ul>
             </li>
