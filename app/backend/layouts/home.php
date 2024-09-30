@@ -1,3 +1,6 @@
+<div class="link_page">
+            <p>Trang chủ</p>
+        </div>
 <div class="main_cate">
               <div class="cate">
                 <div class="cate_top">
