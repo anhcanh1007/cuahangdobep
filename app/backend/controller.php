@@ -1,4 +1,7 @@
 <?php
+
+include './layouts/header.php';
+
 if (isset($_GET['act']) && ($_GET['act'] != "")) {
     $act = $_GET['act'];
     switch ($act) {
@@ -8,12 +11,12 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
         case "settings":
             echo "anh canh test";
             break;
-        // Các case khác cho backend
         default:
-            include '../backend/layouts/index.php';
+            include './layouts/home.php';
             break;
     }
 } else {
-    include '../backend/layouts/index.php';
+    include './layouts/home.php';
 }
+
 ?>

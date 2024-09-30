@@ -16,15 +16,15 @@ html, body {
     gap: 10px;
     padding: 4px;
 }
-.content > .navbar_right {
+.content .navbar_left {
     background: #353a41;
     box-shadow: 0 0 5px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     
 }
-.content > .navbar_left {
+.content .navbar_right {
     padding-right: 10px;
 }
 .info_admin {
@@ -41,29 +41,37 @@ html, body {
     padding-bottom: 8px;
     height: 60px;
 }
+.info_admin p {
+    margin: 0;
+}
 .info_admin img {
     width: 40px;
     height: 40px;
     border: 1px solid white;
     border-radius: 100%;
 }
+
 .list_option ul ul {
     display: none;
 }
+.list_option ul {
+    padding: 0;
+    margin: 0;
 
+}
 .list_option ul li {
-    padding-left: 20px;
     list-style: none;
-    border-bottom: 1px solid gray;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid gray;
 }
 .list_option ul li:hover{
     cursor: pointer;
-    background-color: bisque;
-    transition: 1.5s ease-in-out;
+    background-color: #f0d9b7;
+    transition: 1s ease-in-out;
     a {
-        color: #90cc41;
+        color: white;
     }
 }
 .list_option ul li:hover > ul {
@@ -72,11 +80,15 @@ html, body {
 .list_option ul li ul li {
     color: rgb(24, 7, 7);
     list-style-type: none;
+    padding: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;    
+    padding-left: 4px;
 }
 
 .list_option ul li ul li:hover {
-    color: #32a2ba;
-    background-color: #90cc41;
+    color: white;
+    background-color: #128fa5;
 }
 .list_option ul li a{
     font-size: 18px;
@@ -87,42 +99,46 @@ html, body {
 .header {
     display: flex;
     justify-content: space-between;
-    background: #f9f7f8;
+    align-items: center;
+    background: #F0D9B7;
     height: 60px;
     border-radius: 5px;
-    align-items: center;
     padding-left: 20px;
     padding-right: 40px;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom: 1px solid gray;
     z-index: 1000;
 }
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.title > p > a {
-    text-decoration: none;
-    color: #333;
-}
-.title > p > a:hover {
-    transition: 1s ease-in-out;
-    color: lightcoral;
-}
+
 .header_left {
     display: flex;
     justify-content: start;
     gap: 20px;
 }
-
+.header_left .title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header_left .title p {
+    margin: 0;
+}
+.header_left .title p a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.header_left .title p a:hover {
+    color: #e45154;
+    transition: 1.5s ease-in-out;
+}
 .header_left > div > form {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .search input{
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 10px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -135,16 +151,18 @@ html, body {
     transition: 1s ease-in-out;
 }
 .search button {
-    font-size: 22px;
+    font-size: 18px;
     border: none;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     padding: 4px;
-    background-color: burlywood;
+    color: white;
+    font-weight: 700;
+    background-color: #128fa5;
 }
 .search button:hover {
     cursor: pointer;
-    background-color: lightblue;
+    background-color: rgb(34, 72, 73);
     transition: 1s ease-in-out;
 }
 .header_right {
@@ -172,11 +190,15 @@ html, body {
     justify-content: start;
     gap: 10px;
     align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .link_page p {
-    margin-top: 10px;
+    margin: 0;
+    padding: 0;
     color: white;
+    font-size: 18px;
 }
 
 .main_cate {
