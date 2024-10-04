@@ -7,7 +7,7 @@
             <label for="" class="form-label">Tên sản phẩm</label>
             <input
                 type="text"
-                name=""
+                name="product_name"
                 id=""
                 class="form-control"
                 placeholder=""
@@ -18,7 +18,7 @@
             <label for="" class="form-label">Giá sản phẩm</label>
             <input
                 type="text"
-                name=""
+                name="product_price"
                 id=""
                 class="form-control"
                 placeholder=""
@@ -29,7 +29,7 @@
             <label for="" class="form-label">Số lượng</label>
             <input
                 type="text"
-                name=""
+                name="product_quantity"
                 id=""
                 class="form-control"
                 placeholder=""
@@ -40,7 +40,7 @@
             <label for="" class="form-label">Discount</label>
             <input
                 type="text"
-                name=""
+                name="product_discount"
                 id=""
                 class="form-control"
                 placeholder=""
@@ -49,7 +49,7 @@
           </div>
           <div class="mb-3">
             <label for="" class="form-label">Danh mục</label>
-            <select name="" id="" class="form-control">
+            <select name="list_category" id="" class="form-control">
                 <option value="" disabled selected>Chọn danh mục</option>
                 <option value="">Bếp lẩu nướng</option>
                 <option value="">Bếp điện</option>
@@ -57,11 +57,11 @@
           </div>
           <div class="mb-3">
             <label for="" class="form-label">Mô tả</label>
-            <textarea name="" id="" class="form-control"></textarea>
+            <textarea name="product_description" id="" class="form-control"></textarea>
           </div>
           <div class="mb-3">
             <label for="" class="form-label">Hình ảnh</label>
-            <input type="file" name="" id="" class="form-control"></input>
+            <input type="file" name="product_image" id="" class="form-control"></input>
           </div>
           <div class="mb-3">
             <button class="form-control btn btn-primary">Thêm sản phẩm</button>
